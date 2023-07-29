@@ -29,13 +29,13 @@ export default function ColumnChart() {
 
   // Augmentez la durée de l'animation (par exemple, 1 seconde)
   const chartAnimation = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
+    hidden: { opacity: 4 },
+    visible: { opacity: 4 },
   };
 
   // Augmentez la durée de la transition (par exemple, 1 seconde)
   const chartTransition = {
-    duration: 2,
+    duration: 4,
   };
 
   return (
